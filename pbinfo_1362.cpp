@@ -8,8 +8,10 @@ int main() {
     cin >> n;
     
     cout << 1;
-    for (int i = 1; i <= n; ++i)
+    while(n) {
         cout << 0;
+        n--;
+    }
     
     return 0;
 }
